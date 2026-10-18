@@ -1,83 +1,83 @@
-# MD RAISH — Portfolio V5
+# 🚀 Md Raish — Developer Portfolio
 
-A cinematic, interactive developer portfolio built with **HTML, CSS, and JavaScript**. Designed to give visitors an engaging way to explore my projects, technical background, and résumé.
+![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
 
-## ✨ Highlights
+## 🌐 Live Website
 
-- **Cinematic dark theme** with bold typography, motion effects, and a responsive layout.
-- **Interactive 3D/WebGL experience**, with a CSS fallback where WebGL is unavailable.
-- **Project universe** featuring draggable project exploration and keyboard-accessible project controls.
-- **Architecture explorer** and interactive approval-flow demonstrations.
-- **API sandbox** with *local, simulated* interactions for portfolio demonstrations (not a production API).
-- **Recruiter view** for a quick overview of skills, education, and project evidence.
-- **Résumé download** and a **contact form** powered by FormSubmit.
-- Motion controls, reduced-motion support, and mobile navigation.
-
-## 🛠️ Tech Stack
-
-| Category | Technologies |
-| --- | --- |
-| Frontend | HTML5, CSS3, Vanilla JavaScript |
-| Interactive visuals | WebGL, Canvas, CSS animations |
-| Contact form | FormSubmit |
-| Hosting | Vercel (static site) |
-
-## 📁 Project Structure
-
-```text
-.
-├── index.html             # Main portfolio page
-├── style.css              # Design, layout, and animation styles
-├── app.js                 # Portfolio interactions
-├── sandbox.js             # Simulated API sandbox
-├── experience.js          # WebGL and interactive experiences
-├── Preview.html           # Standalone portfolio preview
-├── assets/                # Images, résumé, and other assets
-├── vercel.json            # Static deployment configuration
-└── README.md
-```
-
-## 🚀 Run Locally
-
-No package installation or build step is required.
-
-1. Download or clone this repository.
-2. Open `index.html` in your browser.
-
-For a local server (recommended for consistent asset loading):
-
-```bash
-python -m http.server 8000
-```
-
-Then visit **http://localhost:8000**.
-
-## ☁️ Deploy to Vercel
-
-1. Sign in to [Vercel](https://vercel.com/new).
-2. Import this GitHub repository.
-3. Choose **Framework Preset: Other**.
-4. Leave **Build Command** and **Output Directory** unset; use the repository root (`./`).
-5. Click **Deploy**.
-
-Vercel will provide a deployment URL when the build succeeds.
-
-## 📬 Contact Form
-
-The contact form uses **FormSubmit** to forward messages to `mdraish9216@gmail.com`. On first use, FormSubmit may send an activation email to this address. Confirm it and test the form after deployment. Form submission depends on the external service and is not handled by a custom backend.
+**[Visit My Portfolio](https://portfolio-one-sage-12.vercel.app)**
 
 ## 👨‍💻 About Me
 
-**Md Raish** — B.Tech Computer Science & Engineering student and developer interested in creating useful, well-designed applications.
+I'm Md Raish, a Computer Science and Engineering student and aspiring full-stack developer. I build modern web applications with a focus on performance, design, and user experience.
 
-Explore my work on [GitHub](https://github.com/Mdraish786).
+## ✨ Portfolio Features
 
-## ℹ️ Notes
+- Cinematic dark theme with electric-lime accents
+- Interactive 3D WebGL animations
+- Smooth transitions and responsive layouts
+- Interactive project showcase
+- API simulation playground
+- Recruiter-friendly experience
+- Downloadable résumé
+- Integrated contact form
+- Mobile-friendly navigation
 
-- The API and approval demonstrations are browser-based simulations and do **not** operate on real user accounts or production infrastructure.
-- The portfolio's 3D scenes are enhancements; key information remains available without WebGL.
-- Replace demo content with verified personal details before sharing publicly.
+## 🛠️ Tech Stack
+
+**Frontend:** HTML5, CSS3, JavaScript
+
+**Visual Effects:** WebGL, CSS animations
+
+**Development Tools:** Git, GitHub, VS Code
+
+**Deployment:** Vercel
+
+## 💼 Featured Projects
+
+### 1. FlowOps — Workflow Management System
+
+An enterprise workflow and approval management platform with role-based access control.
+
+**Tech:** React, TypeScript, FastAPI, PostgreSQL
+
+[GitHub](https://github.com/Mdraish786/FlowOps)
+
+### 2. Postmark — URL Shortener
+
+A URL shortening application with click analytics.
+
+**Tech:** Python, FastAPI
+
+[Live Demo](https://postmark-7jfj.onrender.com) | [GitHub](https://github.com/Mdraish786/Postmark)
+
+### 3. Stockdesk — ERP & CRM
+
+A business management system combining ERP and CRM functionality.
+
+[Live Demo](https://stockdesk-erp-crm.onrender.com) | [GitHub](https://github.com/Mdraish786/stockdesk-erp-crm)
+
+## 🚀 Deployment
+
+This portfolio is deployed on Vercel with continuous deployment from the `main` branch.
+
+**Production URL:** https://portfolio-one-sage-12.vercel.app
+
+## 📬 Contact
+
+The portfolio includes a contact form powered by FormSubmit. Form submissions require the configured email address to be activated.
+
+**Email:** mdraish9216@gmail.com
+
+**GitHub:** https://github.com/Mdraish786
+
+**Portfolio:** https://portfolio-one-sage-12.vercel.app
 
 ---
 
-Made with care by **Md Raish**.
+⭐ If you like my work, consider starring the repository.
+
+**Made with ❤️ by Md Raish**
